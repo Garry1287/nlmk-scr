@@ -22,7 +22,6 @@ django.setup()
 #Импортируем модель Post
 from nlmkapp.models import *
 
-
 		
 #Считываем CSV-файл
 ObjectNLMKdata = csv.reader(open("/home/garry/nlmk-scr/src/ObjectNLMK.csv"),delimiter=',')
